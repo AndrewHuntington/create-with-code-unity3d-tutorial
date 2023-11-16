@@ -5,7 +5,7 @@ using UnityEngine;
 public class DashView : MonoBehaviour
 {
     public GameObject player;
-    private Vector3 offset = new Vector3(0, 2.3f, 1.5f);
+    private Vector3 offset = new(0, 2.3f, 1.5f);
 
     void LateUpdate()
     {
